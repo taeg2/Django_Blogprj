@@ -16,5 +16,5 @@ class Reples(models.Model):
     date = models.DateField()
 
     def __str__(self):
-        return f"댓글({self.post.title})"
+        return self.comments
     
